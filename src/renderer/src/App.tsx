@@ -11,7 +11,6 @@ function App(): JSX.Element {
       <div className="creator">Powered by electron-vite</div>
       <div>login</div>
       <div>
-        {' '}
         <SignedOut>
           <SignInButton />
         </SignedOut>
